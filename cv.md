@@ -1,5 +1,7 @@
 #Aliaksandr Bychyk
 
-##Contakt
+##Contacts
+Phone +48....
+email@....
 
 ###Text
