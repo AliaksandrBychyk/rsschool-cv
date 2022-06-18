@@ -1,1 +1,102 @@
-CSS file
+* {
+    box-sizing: border-box;
+    border: 0px solid white;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    line-height: 1.5;
+    font-size: 18px;
+    color: cadetblue;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+#foto {
+    margin: 0;
+    padding: 5px;
+}
+
+#title-name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-weight:500;
+    font-size:24px;
+}
+
+#pharagraf {
+    font-size: 22px;
+    color: brown;
+    font-weight: 450;
+    text-transform: capitalize;
+}
+
+.nav {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(80, 191, 255);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+
+    list-style: none;
+}
+.nav-item {
+    color: beige;
+    transition: color 1s;
+}
+.nav-item a:hover {
+    color: rgb(243, 243, 10);
+}
+
+.nav-link {
+    transition: 0.2s;
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    width: 50%;
+}
+.footer {
+    background-color: rgb(80, 191, 255);
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-widht: 768px) {
+    .section {
+        widht: 100%;
+    }
+}
